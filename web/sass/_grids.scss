@@ -5,5 +5,8 @@
 
 $susy: (
   columns: 12,
-  gutters: 1/4,
+  global-box-sizing: botder-box
 );
+
+@include border-box-sizing;
+
