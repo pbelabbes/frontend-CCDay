@@ -1,0 +1,7 @@
+.wrap{
+	@include container (1120px);
+}
+
+.content {
+	@include span(8);
+}
