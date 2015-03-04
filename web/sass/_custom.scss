@@ -1,5 +1,6 @@
+
 .wrap{
-	@include container (1120px);
+	@include container;
 }
 
 .content {
@@ -7,5 +8,21 @@
 }
 
 .sidebar {
-	@include span(4);
+	@include span(4 last);
 }
+
+.social {
+	padding : gutter();
+
+	@include clearfix; 
+	
+	.social__list-item{
+		@include span(1 of 10);
+		border: 1px solid;
+	
+		&:last-child {
+			@include last;
+		}
+	}
+}
+
