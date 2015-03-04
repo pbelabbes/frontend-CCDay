@@ -4,5 +4,8 @@
 
 .content {
 	@include span(8);
+}
 
+.sidebar {
+	@include span(4);
 }
